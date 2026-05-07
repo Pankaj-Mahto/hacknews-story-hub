@@ -123,7 +123,7 @@ Create a `.env` file in the `backend/` directory:
 PORT=5000
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/hackernews-story-hub
+MONGODB_URI= your mongodb api key
 
 # JWT
 JWT_SECRET=your_jwt_secret_key_here
@@ -278,9 +278,6 @@ The frontend will start on `http://localhost:5173`
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 

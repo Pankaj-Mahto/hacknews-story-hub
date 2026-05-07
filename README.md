@@ -6,6 +6,8 @@ A full-stack MERN application that scrapes top stories from HackerNews, stores t
 
 HackerNews Story Hub is a comprehensive web application that demonstrates full-stack development capabilities using the MERN stack. The application automatically scrapes the top 10 stories from HackerNews, provides user authentication, and enables bookmarking functionality with a responsive, modern UI.
 
+🌐 Live -> https://hacknews-story-hub.onrender.com
+
 ### 🎯 Key Features
 - **Real-time Story Scraping**: Automatically fetches top stories from HackerNews
 - **User Authentication**: Secure JWT-based login/registration system

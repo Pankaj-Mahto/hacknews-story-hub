@@ -9,7 +9,7 @@ class ScraperService {
 
   async scrapeTopStories() {
     try {
-      console.log('Starting to scrape top stories...');
+      //console.log('Starting to scrape top stories...');
       
       const response = await axios.get(this.hackerNewsUrl, {
         headers: {
@@ -98,7 +98,7 @@ class ScraperService {
       // Sort stories by points descending to ensure highest pointed stories are prioritized
       stories.sort((a, b) => b.points - a.points);
       
-      console.log(`Found ${stories.length} stories to process`);
+      //console.log(`Found ${stories.length} stories to process`);
       return await this.saveStories(stories);
     } catch (error) {
       console.error('Error scraping HackerNews:', error.message);
@@ -134,7 +134,7 @@ class ScraperService {
         savedStories.push(savedStory);
       }
 
-      console.log(`Successfully processed ${savedStories.length} stories`);
+      //console.log(`Successfully processed ${savedStories.length} stories`);
       return savedStories;
     } catch (error) {
       console.error('Error saving stories:', error.message);

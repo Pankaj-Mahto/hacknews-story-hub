@@ -2,7 +2,7 @@ import scraperService from '../services/scraperService.js';
 
 export const scrapeStories = async (req, res) => {
   try {
-    console.log('Scrape request received');
+    //console.log('Scrape request received');
     
     const stories = await scraperService.scrapeTopStories();
     
